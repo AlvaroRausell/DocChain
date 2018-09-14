@@ -1,0 +1,25 @@
+{
+  "name": "server_api",
+  "version": "1.0.0",
+  "description": "Server API for blockchain development",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alvaro Rausell",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "circular-json": "^0.5.1",
+    "crypto": "^1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "node-fetch": "^2.1.1",
+    "request": "^2.85.0",
+    "socket.io": "^2.0.4",
+    "twilio": "^3.13.1",
+    "underscore": "^1.8.3"
+  }
+}
